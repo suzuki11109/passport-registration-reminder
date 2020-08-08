@@ -36,7 +36,7 @@ func main() {
 
 	fmt.Println("starting...")
 
-	t := time.NewTicker(time.Duration(3 * time.Minute))
+	t := time.NewTicker(time.Duration(3 * time.Hour))
 	defer t.Stop()
 
 	go func() {
